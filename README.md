@@ -8,8 +8,7 @@ This respository contains Grasshopper components that use python libraries for m
 Python libraries for modelica: 
 [OMPython](https://github.com/OpenModelica/OMPython), [OMSimulator](https://github.com/OpenModelica/OMSimulator), [PySimulator](https://github.com/PySimulator/PySimulator), [pymoca](https://github.com/pymoca/pymoca), [pyfmu](https://github.com/INTO-CPS-Association/pyfmu), [BuildingsPy](https://github.com/lbl-srg/BuildingsPy)...
 
-[GHPython](https://www.food4rhino.com/app/ghpython) for Python 2.7 inside Grasshopper.
-[GH_CPython](https://www.food4rhino.com/app/ghcpython) for Python 2.x and 3.x inside Grasshopper.
+[GHPython](https://www.food4rhino.com/app/ghpython) for Python 2.7 and [GH_CPython](https://www.food4rhino.com/app/ghcpython) for Python 2.x and 3.x inside Grasshopper.
 
 
 ## Additional links 
