@@ -8,6 +8,6 @@ output.append(omc.sendExpression("loadModel(Modelica)"))
 output.append(omc.sendExpression("loadFile(getInstallationDirectoryPath() + \"/share/doc/omc/testmodels/BouncingBall.mo\")"))
 output.append(omc.sendExpression("instantiateModel(BouncingBall)"))
 output.append(omc.sendExpression("simulate(BouncingBall, stopTime=3.0)"))
-omc.sendExpression("val(h , 2.0)")
+output.append(omc.sendExpression("val(h , 2.0)"))
 
 output_ = '\n'.join(map(str, output))
