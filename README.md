@@ -2,7 +2,6 @@
 This respository contains Grasshopper components that use python libraries for modelica.
 
 ## Used tools, libraries and plugins
-[Rhino 6](https://www.rhino3d.com/download), [Grasshopper](https://www.grasshopper3d.com/), [OpenModelica v1.16.0-dev.03 64-bit](https://openmodelica.org/download/download-windows), [Python 3.8.3](https://www.python.org/downloads/)
 
 
 Python libraries for modelica: 
