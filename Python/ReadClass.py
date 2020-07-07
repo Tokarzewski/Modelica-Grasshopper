@@ -1,12 +1,6 @@
-from OMPython import OMCSessionZMQ
-from pathlib import Path    
-
-#FileName = Path(FilePath).name.split(".")[0]
-ModelPath = ModelPath.replace("\t", "/t")
-print(ModelPath)
+from OMPython import OMCSessionZMQ  
 
 omc = OMCSessionZMQ()
 omc.sendExpression("loadFile(" + '"' + ModelPath +'")')
-#Print Expression
-print("loadFile(" + '"' + ModelPath +'")')
-output_ = omc.sendExpression("instantiateModel("+ClassName+")")
+#print("loadFile(" + '"' + ModelPath +'")') #Print Expression
+output = omc.sendExpression("instantiateModel("+ClassName+")")
