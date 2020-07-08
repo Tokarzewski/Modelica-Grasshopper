@@ -31,12 +31,10 @@ RETURN:
 
 """
 #For example
-cmds = ['loadFile(getInstallationDirectoryPath() + "/share/doc/omc/testmodels/BouncingBall.mo")',
+"""cmds = ['loadFile(getInstallationDirectoryPath() + "/share/doc/omc/testmodels/BouncingBall.mo")',
 "simulate(BouncingBall)",
 "plot(h)"]
-Run = True
-
-
+Run = True"""
 
 from OMPython import OMCSessionZMQ
 if Run == True:
