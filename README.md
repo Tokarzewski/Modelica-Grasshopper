@@ -17,6 +17,5 @@ Python libraries for modelica:
 ## Additional links 
 [How to create GH_CPython component](https://github.com/MahmoudAbdelRahman/GH_CPython/wiki/02--First-GH_CPython-plugin)
 
-[OMShell - OpenModelica Scripting](https://build.openmodelica.org/Documentation/OpenModelica.Scripting.html)
-
-[OpenModelica Python Interface - OMPython](https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/ompython.html)
+[OpenModelica Documentation](https://openmodelica.org/useresresources/userdocumentation) ([Scripting](https://build.openmodelica.org/Documentation/OpenModelica.Scripting.html),
+[OMPython](https://openmodelica.org/doc/OpenModelicaUsersGuide/latest/ompython.html))
