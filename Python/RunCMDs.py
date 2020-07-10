@@ -28,8 +28,8 @@ RETURN:
     <out>
         output : output from commands
     </out>
-
 """
+
 #For example
 """cmds = ['loadFile(getInstallationDirectoryPath() + "/share/doc/omc/testmodels/BouncingBall.mo")',
 "simulate(BouncingBall)",
@@ -41,7 +41,10 @@ if Run == True:
     omc = OMCSessionZMQ()
     output =[]
     for cmd in cmds:
-      answer = omc.sendExpression(cmd)
-      output.append("\n{}:\n{}".format(cmd, answer))
+        #change parentheses
+        cmd = cmd.replace("[","{").replace("]","}")
+        answer = omc.sendExpression(cmd)
+        print(cmd)
+        output.append("\n{}:\n{}".format(cmd, answer))
 else:
-    output = "Run = False"
+    output = "False"
