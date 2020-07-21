@@ -5,6 +5,6 @@
 
 [First steps with OpenModelica and Python](https://www.fabrice-salvaire.fr/en/blog/first-steps-with-openmodelica/)
 
-[JModelica github repo](https://github.com/JModelica/JModelica)
+[JModelica, OpenModelica - Python](https://www.reddit.com/r/Python/comments/dcj6fy/jmodelica_combining_the_power_of_python_and/)
 
 [Modelica Discord](https://discord.gg/RCac9qT)
