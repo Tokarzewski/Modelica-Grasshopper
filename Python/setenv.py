@@ -1,5 +1,6 @@
-#Python version of batch file "C:\JModelica.org-2.14\setenv.bat"
+#Python version of batch file C:\JModelica.org-2.14\setenv.bat
 #SUNDIALS_HOME, IPOPT_HOME AND JPYPE_JVM have to be set mannualy
+#This file should go to C:\GH_CPython directory
 
 import sys, os
 sys.path.append("C:\JModelica.org-2.14\install\Python_64")
